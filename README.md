@@ -1,8 +1,43 @@
-- 👋 Hi, I’m @SeanieCode23 a young inspiring IT professional who is currently making a transistion from Telecommunications(Outside Plant Engineer specializing in Fiber optics looking to transistion to cyber.
-- I am interested in the cyber security realm and actively looking for ways to break into the field and begin my career.
-- 🌱 I’m currently learning Python on my own while also assorbing as much knowledge as possible that can better set me up for success, and would be open to any advise about how best to navigate this expansive realm we call IT.
-- 💞️ I’m looking to collaborate on any project that would be willing to accept essentially a beginner like me to learn and study and build up my skillset.
-- 📫 To reach me it would be best to contact me at arseanwilbon@yahoo.com as that is a form of contact for me that i check daily.
+# Cybersecurity Portfolio
+
+Welcome to my Cybersecurity Portfolio repository! 🎯 Here, you'll find a collection of my projects, scripts, and challenges that showcase my skills and experience in the cybersecurity domain. These projects are designed to highlight my problem-solving abilities and practical knowledge in the field.
+
+---
+
+## 🛡️ About Me
+
+- **Name:** SeanieCode23
+- **Certifications:** CompTIA Security+ (SY0-701)
+- **Interests:** Cybersecurity, Ethical Hacking, Penetration Testing, and Threat Analysis
+- **Current Activities:** Building cybersecurity projects and expanding my technical expertise
+
+---
+
+## 🚀 Projects and Tools
+
+### Custom Tools and Scripts
+Custom-built tools and scripts to automate cybersecurity tasks:
+- [Tool Name](link to the tool)
+- [Script Name](link to the script)
+
+### Labs and Exercises
+Hands-on labs showcasing techniques like network enumeration, vulnerability assessment, and exploitation:
+- [Lab Name](link to the lab/project)
+
+---
+
+## 🛠️ Technologies and Tools
+- **Languages:** Python, Bash, PowerShell
+- **Tools:** Nmap, Wireshark, Metasploit, Burp Suite
+- **Platforms:** Linux, Windows
+
+---
+
+## 📚 How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/SeanieCode23/cybersecurity-portfolio.git
+
 
 <!---
 SeanieCode23/SeanieCode23 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
