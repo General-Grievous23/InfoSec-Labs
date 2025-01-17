@@ -11,15 +11,22 @@ Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 This project demonstrates how to monitor and secure a Windows 10 Pro virtual machine (VM) on Azure by leveraging Microsoft Sentinel. The project sets up an environment to collect and analyze security event logs, focusing on Remote Desktop Protocol (RDP) connection attempts. An alerting mechanism was configured to notify of successful connections, showcasing how Sentinel can enhance security monitoring and response capabilities.
 
 **Table of contents**
-
-  1. introduction
-  2. prerequites
-  3. step-by-step implementation
-     &bull;Creating the Azure Environment
-     &bull;Configuring Microsoft Sentinel
-     &bull;Setting Up Data Collection
-     &bull;Creating an Alert Rule
-     &bull;Simulating a Successful Connection
+<ol>
+  <li>introduction</li>
+  <li>Prerequisites</li>
+  <li>Step-by-step implementation
+       <ul>
+         <li>Creating the Azure environment</li>
+         <li>Configuring Microsoft Sentinel</li>
+         <li>Setting up data collection</li>
+         <li>Creating an Alert Rule</li>
+         <li>Simulating a successful connection</li>
+       </ul>
+  </li>
+  <li>Results</li>
+  <li>Conclusion</li>
+</ol>
+  
 
 ### Header 3
 
