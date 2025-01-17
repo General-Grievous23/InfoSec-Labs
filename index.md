@@ -51,9 +51,31 @@ This project showcases how to monitor and enhance the security of an Azure-hoste
 2. Create a new Sentinel workspace or use an existing one.
 3. Connect the VM to Sentinel using the Windows Security Event connector:
    * Navigate to Data Connectors in Sentinel.
-   * Select Windows Security Events and follow the setup instructions. 
+   * Select Windows Security Events and follow the setup instructions.
 
-###### Header 6
+**Setting up Data Collection**
+1. Create a Data Collection Rule (DCR)
+   * Go to the Log Analytics workspace associated with Sentinel.
+   * Create a new DCR named WindowsEventsToSentinel.
+   * Configure it to collect logs for events related to RDP connections.
+2. Save an enable the rule
+
+**Creating an Alert Rule**
+1. In Sentinel, go to Analytics > Create Alert Rule.
+2. Define the rule:
+   * Trigger Condition: Log query for successful RDP connections.
+   * Set a threshold for alerting.
+   * Notification: Configure email or other alert mechanisms.
+
+**Simulatting a Successful Connection**
+1. Use an RDP client to connect to the VM using its public IP and credentials.
+2. Verify the connection logs in Microsoft Sentinel. 
+
+##### 4. Results
+
+* Logs of all attempted and successful RDP connections were collected in Sentinel.
+* An alert was triggered for the simulated successful connection.
+* The project demonstrates effective use of Sentinel for security monitoring.
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
