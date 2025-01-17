@@ -15,11 +15,11 @@ This project demonstrates how to monitor and secure a Windows 10 Pro virtual mac
   1. introduction
   2. prerequites
   3. step-by-step implementation
-   **.** Creating the Azure Environment
-   **.** Configuring Microsoft Sentinel
-   **.** Setting Up Data Collection
-   **.** Creating an Alert Rule
-   **.** Simulating a Successful Connection
+     &bull;Creating the Azure Environment
+     &bull;Configuring Microsoft Sentinel
+     &bull;Setting Up Data Collection
+     &bull;Creating an Alert Rule
+     &bull;Simulating a Successful Connection
 
 ### Header 3
 
