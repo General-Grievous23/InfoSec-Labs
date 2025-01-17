@@ -74,10 +74,12 @@ This project showcases how to monitor and enhance the security of an Azure-hoste
 2. Verify the connection logs in Microsoft Sentinel. 
 
 ##### 4. Log Query Example
+```kql
 SecurityEvent
-| where Activity contains "success" and Account !contains "system"
+| where Activity contains "success"
+      and Account !contains "system"
+```
 
-This Query is used for the Alert rule
 
 ##### 5. Results
 
