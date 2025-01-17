@@ -6,7 +6,7 @@ Welcome to my Cybersecurity Portfolio repository! 🎯 Here, you'll find a colle
 
 ## 🛡️ About Me
 
-- **Name:** SeanieCode23
+- **Name:** General-Grievous23
 - **Certifications:** CompTIA Security+ (SY0-701)
 - **Interests:** Cybersecurity, Ethical Hacking, Penetration Testing, and Threat Analysis
 - **Current Activities:** Building cybersecurity projects and expanding my technical expertise
