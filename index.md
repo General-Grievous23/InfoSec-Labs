@@ -37,11 +37,21 @@ This project showcases how to monitor and enhance the security of an Azure-hoste
 *   Basic understanding of Azure portal and Vm's.
 *   Familiarity with Microsoft Sentinel.
 
-##### Header 5
+#### 3. Step-by-step implementation
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
+**Creating the Azure environment**
+1.  Log into your Azure account.
+2.  Navigate to Virtual Machines and create a new VM:
+    * OS: Windows 10 Pro.
+    * Networking: Ensure RDP is open on port 3389. 
 3.  This is an ordered list following a header.
+
+**Configuring Microsoft Sentinel**
+1. Go to the Azure portal and search for Microsoft Sentinel.
+2. Create a new Sentinel workspace or use an existing one.
+3. Connect the VM to Sentinel using the Windows Security Event connector:
+   * Navigate to Data Connectors in Sentinel.
+   * Select Windows Security Events and follow the setup instructions. 
 
 ###### Header 6
 
