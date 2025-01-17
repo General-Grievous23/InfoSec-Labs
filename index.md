@@ -12,7 +12,7 @@ This project demonstrates how to monitor and secure a Windows 10 Pro virtual mac
 
 **Table of contents**
 <ol>
-  <li>introduction</li>
+  <li>Introduction</li>
   <li>Prerequisites</li>
   <li>Step-by-step implementation
        <ul>
@@ -28,28 +28,14 @@ This project demonstrates how to monitor and secure a Windows 10 Pro virtual mac
 </ol>
   
 
-### Header 3
+## 1. Introduction
+This project showcases how to monitor and enhance the security of an Azure-hosted Windows 10 Pro virtual machine using Microsoft Sentinel. It covers setting up a VM, enabling security event logging, configuring alert rules, and simulating successful RDP connections to validate monitoring.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+### 2. Prerequites
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+*   An active Azure account.
+*   Basic understanding of Azure portal and Vm's.
+*   Familiarity with Microsoft Sentinel.
 
 ##### Header 5
 
