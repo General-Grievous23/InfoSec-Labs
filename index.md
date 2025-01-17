@@ -6,19 +6,20 @@ Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
+<!--There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.-->
 # Project #1 SIEM with a Threat Intelligence Feed
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+This project demonstrates how to monitor and secure a Windows 10 Pro virtual machine (VM) on Azure by leveraging Microsoft Sentinel. The project sets up an environment to collect and analyze security event logs, focusing on Remote Desktop Protocol (RDP) connection attempts. An alerting mechanism was configured to notify of successful connections, showcasing how Sentinel can enhance security monitoring and response capabilities.
 
-## Header 2
+**Table of contents**
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+  1. introduction
+  2. prerequites
+  3. step-by-step implementation
+   **.** Creating the Azure Environment
+   **.** Configuring Microsoft Sentinel
+   **.** Setting Up Data Collection
+   **.** Creating an Alert Rule
+   **.** Simulating a Successful Connection
 
 ### Header 3
 
