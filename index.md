@@ -44,7 +44,9 @@ This project showcases how to monitor and enhance the security of an Azure-hoste
 1.  Log into your Azure account.
 2.  Navigate to Virtual Machines and create a new VM:
     * OS: Windows 10 Pro.
-    * Networking: Ensure RDP is open on port 3389. 
+    * Networking: Ensure RDP is open on port 3389.
+  
+
 3.  Deploy the VM and note its public IP address for future RDP access.
 
 **Configuring Microsoft Sentinel**
