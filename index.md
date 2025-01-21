@@ -130,7 +130,7 @@ This project highlights how to monitor and respond to RDP connection events usin
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-![VMPage](https://github.githubassets.com/images/icons/emoji/vmpage.jpg)
+![VMPage](https://github.githubassets.com/images/vmpage.jpg)
 
 ### Large image
 
