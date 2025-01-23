@@ -63,6 +63,7 @@ This project showcases how to monitor and enhance the security of an Azure-hoste
    * Scope: Select your VM.
    * Logs: Include event IDs related to RDP connections (e.g., Event ID 4624 for successful logins).
 3. Save an enable the rule
+![dataconnector](projectScreenshots/dataconnector.png)
 
 **Creating an Alert Rule**
 1. In Sentinel, go to Analytics > Create Alert Rule.
