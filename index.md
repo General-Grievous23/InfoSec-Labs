@@ -71,10 +71,12 @@ This project showcases how to monitor and enhance the security of an Azure-hoste
    * Trigger Condition: Log query for successful RDP connections.
    * Set a threshold for alerting.
    * Notification: Configure email or other alert mechanisms.
+![AlertRule](projectScreenshots/AlertRule.png)
 
 **Simulatting a Successful Connection**
 1. Use an RDP client to connect to the VM using its public IP and credentials.
-2. Verify the connection logs in Microsoft Sentinel. 
+2. Verify the connection logs in Microsoft Sentinel.
+![SimulatedRDP](projectScreenshots/SimulatedRDP.png) 
 
 ##### 4. Log Query Example
 ```kql
