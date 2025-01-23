@@ -54,6 +54,7 @@ This project showcases how to monitor and enhance the security of an Azure-hoste
 3. Select Windows Security Events and follow the prompts to connect your VM:
    * Install the Log Analytics agent on your VM.
    * Configure the agent to send logs to your Sentinel workspace.
+  ![SentinelDashboard](projectScreenshots/SentinelDashboard.png)
 
 **Setting up Data Collection**
 1. Go to the Log Analytics workspace linked to your Sentinel instance.
