@@ -110,8 +110,6 @@ This project highlights the creation of a python script that logs successful and
        <ul>
          <li>create a Directory to hold the script</li>
          <li>Create the .py file</li>
-         <li>Logout and generate some failed attempts</li>
-         <li>Set up email</li>
        </ul>
   </li>
   <li>Results</li>
@@ -143,6 +141,13 @@ once installed make a directory that will hold all your python scripts and cd to
 ```kql
 mkdir python-scripts.
 cd /pythonscrippts
+```
+Create a .py file and add in the script, the script when ran will output info and automatically log, failed attempts, successful attempts, IP addresses, and timetamps, as well as send an email alert.
+![loganalyzerscript](projectScreenshots/loganalyzerscript.png)
+
+##### 4. Results
+
+Generate some failed log in attempts to create some data
 ### Here is an unordered list:
 
 *   Item foo
