@@ -99,6 +99,50 @@ This project highlights how to monitor and respond to RDP connection events usin
 <!--There's a horizontal rule below this.-->
 * * *
 
+# Project #2 Log Analyzer Python Script
+This project highlights the creation of a python script that logs successful and failed login attempts and then sends and email alert. 
+
+**Table of Contents**
+<ol>
+  <li>Introduction</li>
+  <li>Prerequisites</li>
+  <li>Step-by-step implementation
+       <ul>
+         <li>create a Directory to hold the script</li>
+         <li>Create the .py file</li>
+         <li>Logout and generate some failed attempts</li>
+         <li>Set up email</li>
+       </ul>
+  </li>
+  <li>Results</li>
+  <li>Conclusion</li>
+</ol>
+
+
+## 1. Introduction
+
+This project highlights the creation of a python script that logs successful and failed login attempts and then sends and email alert.
+
+### 2. Prerequites
+
+* Linux box with Python3 installed on it
+* Active Gmail account or any email (yahoo, outlook etc)
+
+#### 3. Step-by-step implementation
+
+**Setting up the space**
+1. SSH into your VM or linux box. Verify you have python3 installed you can check this with
+```kql
+Python3 --version
+```
+If you do not have python, then install it using the folllowing command:
+```kql
+sudo apt update && sudo apt install -y python3
+```
+once installed make a directory that will hold all your python scripts and cd to it using:
+```kql
+mkdir python-scripts.
+cd /pythonscrippts
 ### Here is an unordered list:
 
 *   Item foo
