@@ -148,10 +148,9 @@ After the script has analyzed the data it will send out a email that will out li
 ##### 5. Conclusion
 
 This highlights how a  python script can be utilized in a linux server environment to track and alert potential login threats as well as successful attemmpts that may or may not be malicious.
-### Here is an unordered list:
 <!--There's a horizontal rule below this.-->
 * * *
-### Here is an unordered list:
+
 <!--
 ### Here is an unordered list:
 *   Item foo
