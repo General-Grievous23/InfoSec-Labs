@@ -151,6 +151,7 @@ This highlights how a  python script can be utilized in a linux server environme
 ### Here is an unordered list:
 <!--There's a horizontal rule below this.-->
 * * *
+### Here is an unordered list:
 <!--
 ### Here is an unordered list:
 *   Item foo
@@ -208,6 +209,7 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 
 ```
--->
+
 The final element.
 ```
+-->
