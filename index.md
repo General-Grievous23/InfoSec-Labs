@@ -1,11 +1,3 @@
----
-layout: default
----
-
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
-
-[Link to another page](./another-page.html).
-
 <!--There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.-->
 # Project #1 SIEM with a Threat Intelligence Feed
 This project demonstrates how to monitor and secure a Windows 10 Pro virtual machine (VM) on Azure by leveraging Microsoft Sentinel. The project sets up an environment to collect and analyze security event logs, focusing on Remote Desktop Protocol (RDP) connection attempts. An alerting mechanism was configured to notify of successful connections, showcasing how Sentinel can enhance security monitoring and response capabilities.
@@ -123,13 +115,13 @@ This project highlights the creation of a python script that logs successful and
 
 ### 2. Prerequites
 
-* Linux box with Python3 installed on it
-* Active Gmail account or any email (yahoo, outlook etc)
+* Linux box with Python3 installed on it.
+* Active Gmail account or any email (yahoo, outlook etc).
 
 #### 3. Step-by-step implementation
 
 **Setting up the space**
-1. SSH into your VM or linux box. Verify you have python3 installed you can check this with
+1. SSH into your VM or linux box. Verify you have python3 installed you can check this with.
 ```kql
 Python3 --version
 ```
@@ -147,9 +139,20 @@ Create a .py file and add in the script, the script when ran will output info an
 
 ##### 4. Results
 
-Generate some failed log in attempts to create some data
-### Here is an unordered list:
+The script when ran will generate and output that appears like this:
+![loganalyzeroutput](projectScreenshots/loganalyzeroutput.png)
 
+After the script has analyzed the data it will send out a email that will out like this:
+![bruteforceemail](projectScreenshots/bruteforceemail.png)
+
+##### 5. Conclusion
+
+This highlights how a  python script can be utilized in a linux server environment to track and alert potential login threats as well as successful attemmpts that may or may not be malicious.
+### Here is an unordered list:
+<!--There's a horizontal rule below this.-->
+* * *
+<!--
+### Here is an unordered list:
 *   Item foo
 *   Item bar
 *   Item baz
@@ -205,5 +208,6 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 
 ```
+-->
 The final element.
 ```
